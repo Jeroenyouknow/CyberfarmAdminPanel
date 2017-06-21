@@ -13,7 +13,7 @@ function init() {
 
 function getCyberfarms() {
     reqwest({
-        url: 'http://localhost/GroenteGo_API/',
+        url: 'http://localhost/GroenteGo_API/api.php',
         contentType: 'application/json',
         success: getCyberfarmsSuccesHandler,
         error: getCyberfarmsErrorHandler
