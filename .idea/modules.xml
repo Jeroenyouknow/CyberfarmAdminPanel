@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Cyberfarm/.idea/Cyberfarm.iml" filepath="$PROJECT_DIR$/../Cyberfarm/.idea/Cyberfarm.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/CyberfarmAdminPanel.iml" filepath="$PROJECT_DIR$/.idea/CyberfarmAdminPanel.iml" />
       <module fileurl="file://$PROJECT_DIR$/../GroenteGO_API/.idea/GroenteGO_API.iml" filepath="$PROJECT_DIR$/../GroenteGO_API/.idea/GroenteGO_API.iml" />
     </modules>
