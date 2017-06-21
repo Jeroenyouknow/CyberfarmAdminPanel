@@ -3,7 +3,6 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <link rel="stylesheet" type="text/css" href="css/main.css" media="screen">
     <link rel="shortcut icon" href="Afbeeldingen/logo.png" type="image/x-icon">
-    <script src="JS/tab.js"></script>
     <title>CyberFarm TM</title>
 </head>
 
@@ -19,8 +18,27 @@
 </nav>
 
 <article style="margin-left:25%;padding:1px 16px;height:1000px;">
-<h1>De servers zijn momenteel: ACTIEF</h1>
-    <p> Alles werkt naar behoren.</p>
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Pin</th>
+                    <th>Hash</th>
+                    <th>Schoolname</th>
+                    <th>Author</th>
+                    <th>Startdate</th>
+                    <th>Log</th>
+                </tr>
+                </thead>
+                <tbody id="cyberfarms">
+                </tbody>
+            </table>
+        </div>
+
+        <script src="node_modules/reqwest/reqwest.min.js"></script>
+        <script src="js/main.js"></script>
 </article>
 </body>
 

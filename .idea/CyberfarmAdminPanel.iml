@@ -14,5 +14,7 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="module" module-name="GroenteGO_API" />
+    <orderEntry type="module" module-name="football" />
   </component>
 </module>
