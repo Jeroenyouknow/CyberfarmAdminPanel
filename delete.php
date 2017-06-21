@@ -6,6 +6,7 @@ $id = $_POST['id'];
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/main.css" media="screen">
     <link rel="shortcut icon" href="Afbeeldingen/logo.png" type="image/x-icon">
     <script src="JS/tab.js"></script>
@@ -23,7 +24,7 @@ $id = $_POST['id'];
 </nav>
 
 
-<div style="margin-left:25%;padding:1px 16px;height:1000px;">
+<article style="margin-left:25%;padding:1px 16px;height:1000px;">
     <?php
     $delete = "DELETE FROM cyberfarm WHERE `cyberfarm_id` = $id";
 
@@ -36,7 +37,7 @@ $id = $_POST['id'];
     $db->close();
     ?>
 
-</div>
+</article>
 </body>
 </html>
 

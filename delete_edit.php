@@ -7,6 +7,7 @@ $school = $_POST['school'];
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/main.css" media="screen">
     <link rel="shortcut icon" href="Afbeeldingen/logo.png" type="image/x-icon">
     <script src="JS/tab.js"></script>
@@ -24,7 +25,7 @@ $school = $_POST['school'];
 </nav>
 
 
-<div style="margin-left:25%;padding:1px 16px;height:1000px;">
+<article style="margin-left:25%;padding:1px 16px;height:1000px;">
     <?php
     $select = "SELECT * FROM `cyberfarm` WHERE `pin` = $pin AND `schoolname` LIKE '$school'";
     $result = $db->query($select);
@@ -51,7 +52,7 @@ $school = $_POST['school'];
     </form>
 
 
-</div>
+</article>
 </body>
 </html>
 

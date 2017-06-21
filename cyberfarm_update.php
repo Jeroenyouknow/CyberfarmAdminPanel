@@ -5,6 +5,7 @@ include_once ('connection.php');
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/main.css" media="screen">
     <link rel="shortcut icon" href="Afbeeldingen/logo.png" type="image/x-icon">
     <title>CyberFarm TM</title>
@@ -21,13 +22,13 @@ include_once ('connection.php');
 </nav>
 
 
-<div style="margin-left:25%;padding:1px 16px;height:1000px;">
+<article style="margin-left:25%;padding:1px 16px;height:1000px;">
     <form action="update_edit.php" method="post">
         Pin (vier cijfers):  <input type="number" name="pin" min="0000" max="9999"><br>
         School:  <input type="text" name="school"><br>
         <input type="submit">
     </form>
 
-</div>
+</article>
 </body>
 </html>
