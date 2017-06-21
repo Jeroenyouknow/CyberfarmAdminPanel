@@ -1,5 +1,5 @@
 <?php
-include_once ('connection.php');
+include_once('connection.php');
 $pin = $_POST['pin'];
 $hash = $_POST['hash'];
 $school = $_POST['school'];
@@ -9,7 +9,7 @@ $log = $_POST['log'];
 ?>
 <html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <link rel="stylesheet" type="text/css" href="css/main.css" media="screen">
     <link rel="shortcut icon" href="Afbeeldingen/logo.png" type="image/x-icon">
     <script src="JS/tab.js"></script>
@@ -26,7 +26,7 @@ $log = $_POST['log'];
     <a href="about.php">Over Cyberfarm </a>
 </nav>
 
-<insert style="margin-left:25%;padding:1px 16px;height:1000px;">
+<article style="margin-left:25%;padding:1px 16px;height:1000px;">
     <?php
     $insert = "INSERT INTO cyberfarm (cyberfarm_id, pin, hash, schoolname, author, startdate, log)
     VALUES ('', '$pin', '$hash', '$school', '$employee', '$date', '$log')";
@@ -39,6 +39,6 @@ $log = $_POST['log'];
 
     $db->close();
     ?>
-</insert>
+</article>
 </body>
 </html>

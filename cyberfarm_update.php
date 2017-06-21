@@ -7,7 +7,6 @@ include_once ('connection.php');
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" type="text/css" href="css/main.css" media="screen">
     <link rel="shortcut icon" href="Afbeeldingen/logo.png" type="image/x-icon">
-    <script src="JS/tab.js"></script>
     <title>CyberFarm TM</title>
 </head>
 <body>
